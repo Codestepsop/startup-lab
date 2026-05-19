@@ -10,3 +10,7 @@ Objetivos iniciais:
 
 Primeira missão:
 publicar este projeto no GitHub.
+
+## Aprendizados
+
+Primeiro repositório publicado com Git e GitHub.
