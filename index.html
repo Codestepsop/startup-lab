@@ -13,24 +13,67 @@
 
 <body>
 
-  <h1>Startup Lab 🚀</h1>
+   <div class="container">
+    <div class="cards">
 
-  <p>
-    Construindo soluções para profissionais de serviços.
-  </p>
+  <div class="card">
+    <h3>Agenda</h3>
+    <p>Gerenciamento de horários e encaixes.</p>
+  </div>
 
-  <h2>Objetivos</h2>
+  <div class="card">
+    <h3>WhatsApp</h3>
+    <p>Automação de mensagens e confirmações.</p>
+  </div>
 
-  <ul>
-    <li>Aprender tecnologia</li>
-    <li>Construir MVPs</li>
-    <li>Automatizar operações</li>
-    <li>Validar ideias</li>
-  </ul>
-<button id="btnMensagem">
-  Clique aqui
-</button>
-<p id="mensagem"></p>
-<script src="script.js"></script>
+</div>
+
+    <h1>Startup Lab 🚀</h1>
+
+    <p>
+      Construindo soluções para profissionais de serviços.
+    </p>
+
+    <h2>Objetivos</h2>
+
+    <ul>
+      <li>Aprender tecnologia</li>
+      <li>Construir MVPs</li>
+      <li>Automatizar operações</li>
+      <li>Validar ideias</li>
+    </ul>
+
+    <button id="btnMensagem" class="btn-primary">
+      Clique aqui
+    </button>
+
+    <p id="mensagem"></p>
+
+    <h2>Agendamento</h2>
+
+    <form id="formAgenda">
+
+      <input 
+        type="text"
+        id="nome"
+        placeholder="Digite seu nome"
+      >
+
+      <input 
+        type="text"
+        id="servico"
+        placeholder="Digite o serviço"
+      >
+
+      <button type="submit" class="btn-primary">
+        Agendar
+      </button>
+
+    </form>
+
+    <p id="resposta"></p>
+
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
